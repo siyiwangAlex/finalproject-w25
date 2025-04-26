@@ -93,35 +93,6 @@
 
 	}
 
-	// Main Sections: Two.
-
-	// Lightbox gallery.
-	// $window.on('load', function() {
-	// 	$('.image.thumb').poptrox({
-	// 		selector: 'a.image.thumb',
-	// 		usePopupEasyClose: true,
-	// 		usePopupNav: false,
-	// 		overlayColor: '#000',
-	// 		overlayOpacity: 0.75,
-	// 		fadeSpeed: 300
-	// 	  });
-
-	// 	$('#two').poptrox({
-	// 		caption: function($a) { return $a.next('h3').text(); },
-	// 		overlayColor: '#2c2c2c',
-	// 		overlayOpacity: 0.85,
-	// 		popupCloserText: '',
-	// 		popupLoaderText: '',
-	// 		selector: '.work-item a.image',
-	// 		usePopupCaption: true,
-	// 		usePopupDefaultStyling: false,
-	// 		usePopupEasyClose: true,
-	// 		usePopupNav: true,
-	// 		windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-	// 	});
-
-	// });
-
 })(jQuery);
 
 // Lightbox: Click image to open, click background or close button to close
@@ -160,7 +131,7 @@ const galleries = {
 		'images/TheRide Bus Stop Policy Brief/04.png',
 	],
 	designPoster: [
-		'images/Design Expo.webp'
+		'images/DesignExpo.webp'
 	]
 };
 
